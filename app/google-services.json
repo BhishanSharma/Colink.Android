@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "746126153972",
+    "project_id": "colink-7c5d3",
+    "storage_bucket": "colink-7c5d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746126153972:android:d1b6431d06af5e5661a6a1",
+        "android_client_info": {
+          "package_name": "com.example.colink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746126153972-c1orlleajad0491broum46hllsjk0v20.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.colink",
+            "certificate_hash": "6d974069511b2f88e95541c58b0b95b140ab2a2d"
+          }
+        },
+        {
+          "client_id": "746126153972-s9ngcjh0bkc2j5ctr4h6qi10tsh4duba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdngh1gbZbbkvoKV_h9lruUKDZrHdWdg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746126153972-s9ngcjh0bkc2j5ctr4h6qi10tsh4duba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tabs.SettingsFragment">
+    
+    <LinearLayout
+        android:id="@+id/SettingsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/user_pic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/avatar1"
+            android:layout_margin="10dp"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/username"
+            android:textColor="#937DC3"
+            android:textSize="28sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Anonymous" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SettingsHeader"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/change_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="20dp"
+            android:layout_marginHorizontal="12dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/rb5tpsfgofad"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/no_user"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/rkjmzk8fu5j"
+                android:textColor="#7860B0"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="Change avatar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/change_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="20dp"
+            android:layout_marginHorizontal="12dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/r2j4s3ow8yq2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/no_name"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/rlkloaakyv1a"
+                android:textColor="#7860B0"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="Change username" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginHorizontal="12dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/rk1q0j07ntab"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/about"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/rgtd0rsi632e"
+                android:textColor="#7860B0"
+                android:textSize="20sp"
+                android:layout_marginTop="14dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="About" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/log_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginHorizontal="12dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/rwd87w85x0ei"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/log"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/robspmo5nsej"
+                android:textColor="#7860B0"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="Log out" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

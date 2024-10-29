@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">CoLink</string>
+    <string name="receiveButtonText">Receive</string>
+    <string name="sendButtonText">Send</string>
+    <string name="receive_screen_header">Receive Screen</string>
+    <string name="send_screen_header">Send Screen</string>
+    <string name="upload_file_button">Upload File</string>
+    <string name="select_file_button">Select File</string>
+    <string name="serverip_placeholder">Enter server\'s IP</string>
+    <string name="sign_up">Sign up</string>
+    <string name="username_hint">username\n</string>
+    <string name="email_hint">email</string>
+    <string name="submit_button">Submit</string>
+    <string name="enter_password_label">Password:</string>
+    <string name="enter_e_mail_label">E-mail</string>
+    <string name="enter_username_label">Username</string>
+    <string name="log_in_header">Login</string>
+    <string name="default_web_client_id">746126153972-s9ngcjh0bkc2j5ctr4h6qi10tsh4duba.apps.googleusercontent.com</string>
+    <string name="google_log_desc">google_log</string>
+    <string name="sign_up_desc">sign_up</string>
+    <string name="choose_an_a">
+        Choose an Avatar
+    </string>
+    <string name="selected_avatar_desc">selected_avatar</string>
+    <string name="get_started_button">Get Started</string>
+    <string name="folder">
+            Folder
+        </string>
+    <string name="select_files">"Select Files "</string>
+    <string name="finding_receiver">Looking for receiver</string>
+    <string name="waiting_sender">Waiting for sender</string>
+    <string name="scan_this_q">
+        Scan this QR code:
+    </string>
+    <string name="qr_desc">qr for ip</string>
+    <string name="song_banner_desc">song_banner</string>
+
+    <string name="AppDirectory">CoLink</string>
+    <string name="subIDirectory">Images</string>
+    <string name="subSDirectory">Songs</string>
+    <string name="subDDirectory">Documents</string>
+    <string name="subADirectory">Apps</string>
+
+    <string name="songs_library_header_text">Songs Library</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_name">Change Username</string>
+    <string name="username_label">username</string>
+    <string name="or_desc">or</string>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/custom_progress_bar.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <rotate
+            android:fromDegrees="270"
+            android:toDegrees="450">
+            <shape android:shape="ring"
+                android:innerRadiusRatio="3"
+                android:thicknessRatio="8"
+                android:useLevel="false">
+                <gradient
+                    android:type="sweep"
+                    android:useLevel="false"
+                    android:startColor="@android:color/transparent"
+                    android:endColor="@color/purple_700" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

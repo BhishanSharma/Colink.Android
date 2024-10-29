@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/home_active_icon"
+        android:title="Home" />
+    <item
+        android:id="@+id/bottom_music_player"
+        android:title="Player"
+        android:icon="@drawable/m_player_active_icon" />
+    <item
+        android:id="@+id/bottom_settings"
+        android:title="Settings"
+        android:icon="@drawable/baseline_settings_24" />
+</menu>

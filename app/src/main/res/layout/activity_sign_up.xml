@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/sign_up"
+            android:textColor="#9b59b6"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/form_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="80dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_username_label"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/username_field"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/textfield"
+                android:inputType="text"
+                android:layout_marginBottom="20dp"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_e_mail_label"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/email_field"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/textfield"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="20dp"
+                android:padding="10dp"
+                android:autofillHints="emailAddress" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_password_label"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/password_field"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/textfield"
+                android:inputType="textPassword"
+                android:autofillHints="password" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_background"
+            android:textAllCaps="false"
+            android:text="@string/submit_button"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp" />
+    </LinearLayout>
+</RelativeLayout>
